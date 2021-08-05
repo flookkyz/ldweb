@@ -13,45 +13,23 @@
         <form>
           <div class="my-3">
             <label>ชื่อผู้ใช้</label>
-            <input
-              type="text"
-              class="form-control"
-              id="username"
-            />
+            <input type="text" class="form-control" id="username" />
           </div>
           <div class="my-3">
             <label>รหัสผ่าน</label>
-            <input
-              type="password"
-              class="form-control"
-              id="pwd"
-            />
+            <input type="password" class="form-control" id="pwd" />
           </div>
           <div class="my-3">
             <label>ชื่อจริง</label>
-            <input
-              type="text"
-              class="form-control"
-              id="name"
-            />
+            <input type="text" class="form-control" id="name" />
           </div>
           <div class="my-3">
             <label>นามสกุล</label>
-            <input
-              type="text"
-              class="form-control"
-              id="lastname"
-            />
+            <input type="text" class="form-control" id="lastname" />
           </div>
           <div class="my-3">
             <label>ที่อยู่ติดต่อ / ที่อยู่โรงเรียน</label>
-            <textarea
-              type="text"
-              id="address"
-              class="form-control"
-              rows="5"
-
-            />
+            <textarea type="text" id="address" class="form-control" rows="5" />
           </div>
           <div class="dropdown">
             <h6>จังหวัด</h6>
@@ -64,28 +42,16 @@
           </div>
           <div class="my-3">
             <label>เบอร์ติดต่อที่ทำงาน</label>
-            <input
-              type="text"
-              class="form-control"
-              id="wtel"
-            />
+            <input type="text" class="form-control" id="wtel" />
           </div>
           <div class="my-3">
             <label>เบอร์ติดต่อมือถือ</label>
-            <input
-              type="text"
-              class="form-control"
-              id="tel"
-            />
+            <input type="text" class="form-control" id="tel" />
           </div>
           <div class="text-danger"><h6>*กรอกเป็นตัวเลขเท่านั้น</h6></div>
           <div class="my-3">
             <label>Email</label>
-            <input
-              type="text"
-              class="form-control"
-              id="email"
-            />
+            <input type="text" class="form-control" id="email" />
           </div>
           <div class="my-3">
             <h6>สถานะเจ้าของบัญชี</h6>
@@ -246,9 +212,13 @@
           <div class="text-center">
             <div class="my-3">
               <router-link to="/register2" class="button-link">
-                <button type="submit" class="btn btn-primary">
+                <v-btn
+                  type="submit"
+                  class="btn btn-primary rounded-pill"
+                  :elevation="3"
+                >
                   ถัดไป
-                </button></router-link
+                </v-btn></router-link
               >
             </div>
           </div>
@@ -256,7 +226,7 @@
       </div>
     </div>
   </div>
-  <br><br><br><br><br>
+  <br /><br /><br /><br /><br />
   <div class="my-3">
     <div class="text-center">
       <img
@@ -265,22 +235,21 @@
         alt="copyright"
         width="100"
       />
-      <h6>
+      <div class="text-caption">
         <small
           >ลิขสิทธิ์ © 2010-2021
           ซอฟต์แวร์ช่วยเขียนสำหรับนักเรียนที่บกพร่องทางการเรียนรู้
         </small>
-      </h6>
-      <h6>
-        <small>สำนักงานพัฒนาวิทยาศาสตร์และเทคโนโลยีแห่งชาติ (สวทช.) </small>
-      </h6>
-      <h6>
+        <br />
+        <small>สำนักงานพัฒนาวิทยาศาสตร์และเทคโนโลยีแห่งชาติ (สวทช.) </small
+        ><br />
         <small
           >111 อุทยานวิทยาศาสตร์ประเทศไทย ถนนพหลโยธิน ตำบลคลองหนึ่ง
           อำเภอคลองหลวง จังหวัดปทุมธานี 12120
         </small>
-      </h6>
-      <h6><small>โทรศัพท์ 02-564-6900 ต่อ 72034, 72047 </small></h6>
+        <br />
+        <small>โทรศัพท์ 02-564-6900 ต่อ 72034, 72047 </small>
+      </div>
     </div>
   </div>
 </template>

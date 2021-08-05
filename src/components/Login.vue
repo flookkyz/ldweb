@@ -21,7 +21,12 @@
           <input type="password" class="form-control" id="pwd" />
         </div>
         <div>
-          <button type="submit" class="btn btn-primary">เข้าสู่ระบบ</button>
+          <v-btn
+            type="submit"
+            class="btn btn-primary rounded-pill"
+            :elevation="3"
+            >เข้าสู่ระบบ</v-btn
+          >
         </div>
       </div>
       <div class="text-center my-3">
@@ -40,7 +45,7 @@
       </div>
     </form>
   </div>
-  <br><br><br><br><br>
+  <br /><br /><br /><br /><br />
   <div class="my-3">
     <div class="text-center">
       <img
@@ -49,22 +54,21 @@
         alt="copyright"
         width="100"
       />
-      <h6>
+      <div class="text-caption">
         <small
           >ลิขสิทธิ์ © 2010-2021
           ซอฟต์แวร์ช่วยเขียนสำหรับนักเรียนที่บกพร่องทางการเรียนรู้
         </small>
-      </h6>
-      <h6>
-        <small>สำนักงานพัฒนาวิทยาศาสตร์และเทคโนโลยีแห่งชาติ (สวทช.) </small>
-      </h6>
-      <h6>
+        <br />
+        <small>สำนักงานพัฒนาวิทยาศาสตร์และเทคโนโลยีแห่งชาติ (สวทช.) </small
+        ><br />
         <small
           >111 อุทยานวิทยาศาสตร์ประเทศไทย ถนนพหลโยธิน ตำบลคลองหนึ่ง
           อำเภอคลองหลวง จังหวัดปทุมธานี 12120
         </small>
-      </h6>
-      <h6><small>โทรศัพท์ 02-564-6900 ต่อ 72034, 72047 </small></h6>
+        <br />
+        <small>โทรศัพท์ 02-564-6900 ต่อ 72034, 72047 </small>
+      </div>
     </div>
   </div>
 </template>

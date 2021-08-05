@@ -20,6 +20,21 @@ npm run build
 npm run lint
 ```
 
+### bootstrap
+```
+npm i bootstrap
+```
+
+### router
+```
+npm i vue-router@next
+```
+
+### vuetify
+```
+npm add vuetify
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 # ld-web
