@@ -256,12 +256,7 @@
       </div>
     </div>
   </div>
-  <img
-    src="https://www.img.in.th/images/1f983b9042a0b610136307a3431d8c5f.png"
-    class="rounded mx-auto d-block"
-    alt="copyright"
-    height="200"
-  />
+  <br><br><br><br><br>
   <div class="my-3">
     <div class="text-center">
       <img

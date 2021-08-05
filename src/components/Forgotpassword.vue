@@ -9,7 +9,7 @@
       <h4>เปลี่ยนรหัสผ่าน</h4>
     </div>
   </div>
-  <div class="col-md-2 offset-md-5">
+  <div class="col-md-2 offset-md-5 text-center">
     <div class="my-3">
       <label for="username">ชื่อผู้ใช้</label>
       <input type="text" class="form-control" id="username" />
@@ -26,20 +26,15 @@
       <label for="pwd">ยืนยันรหัสผ่านใหม่</label>
       <input type="password" class="form-control" id="pwdnewcon" />
     </div>
-    <div>
-      <router-link to="/" class="button-link">
+    <div class="text-center">
+      <router-link to="/" class="button-link ">
         <button type="submit" class="btn btn-primary">
           บันทึกรหัสผ่านใหม่
         </button></router-link
       >
     </div>
   </div>
-  <img
-    src="https://www.img.in.th/images/1f983b9042a0b610136307a3431d8c5f.png"
-    class="rounded mx-auto d-block"
-    alt="copyright"
-    height="200"
-  />
+  <br><br><br><br><br>
   <div class="my-3">
     <div class="text-center">
       <img
