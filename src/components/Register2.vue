@@ -1,4 +1,5 @@
 <template>
+<div class="bg-grey-lighten-3">
   <img
     class="img-fluid"
     src="https://www.img.in.th/images/57ba71554158adc9607777075a14bbe9.jpg"
@@ -131,6 +132,7 @@
       </div>
     </div>
   </div>
+</div>
 </template>
 
 <script>
