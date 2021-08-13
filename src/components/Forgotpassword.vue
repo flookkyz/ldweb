@@ -2,7 +2,7 @@
   <div class="bg-grey-lighten-3">
     <img
       class="img-fluid"
-      src="https://www.img.in.th/images/57ba71554158adc9607777075a14bbe9.jpg"
+      src="https://www.img.in.th/images/57ba71554158adc9607777075a14bbe9.jpg?fbclid=IwAR2rErAXMpVMiLx-xdGgqgwM2IbiMkIV7QmySI-RQXfC_6F-fFgktgNbe9M"
       alt="banner"
     />
     <div class="my-4">
@@ -62,6 +62,8 @@
           </small>
           <br />
           <small>โทรศัพท์ 02-564-6900 ต่อ 72034, 72047 </small>
+          <br />
+          <br /><br />
         </div>
       </div>
     </div>

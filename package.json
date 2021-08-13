@@ -17,6 +17,8 @@
     "vuetify": "^3.0.0-alpha.0"
   },
   "devDependencies": {
+    "@iconify/icons-ri": "^1.1.0",
+    "@iconify/vue": "^1.0.6",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",

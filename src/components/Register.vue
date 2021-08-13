@@ -2,7 +2,7 @@
   <div class="bg-grey-lighten-3">
     <img
       class="img-fluid"
-      src="https://www.img.in.th/images/57ba71554158adc9607777075a14bbe9.jpg"
+      src="https://www.img.in.th/images/57ba71554158adc9607777075a14bbe9.jpg?fbclid=IwAR2rErAXMpVMiLx-xdGgqgwM2IbiMkIV7QmySI-RQXfC_6F-fFgktgNbe9M"
       alt="banner"
     />
     <div class="my-4">
@@ -88,8 +88,8 @@
                 class="form-check-input"
                 type="radio"
                 name="inlineRadioOptions"
-                id="inlineRadio1"
-                value="option1"
+                id="p1"
+                value="p1"
               />
               <label class="form-check-label" for="inlineRadio1">ป.1</label>
             </div>
@@ -98,8 +98,8 @@
                 class="form-check-input"
                 type="radio"
                 name="inlineRadioOptions"
-                id="inlineRadio2"
-                value="option2"
+                id="p2"
+                value="p2"
               />
               <label class="form-check-label" for="inlineRadio2">ป.2</label>
             </div>
@@ -108,8 +108,8 @@
                 class="form-check-input"
                 type="radio"
                 name="inlineRadioOptions"
-                id="inlineRadio2"
-                value="option2"
+                id="p3"
+                value="p3"
               />
               <label class="form-check-label" for="inlineRadio2">ป.3</label>
             </div>
@@ -118,8 +118,8 @@
                 class="form-check-input"
                 type="radio"
                 name="inlineRadioOptions"
-                id="inlineRadio2"
-                value="option2"
+                id="p4"
+                value="p4"
               />
               <label class="form-check-label" for="inlineRadio2">ป.4</label>
             </div>
@@ -128,8 +128,8 @@
                 class="form-check-input"
                 type="radio"
                 name="inlineRadioOptions"
-                id="inlineRadio2"
-                value="option2"
+                id="p5"
+                value="p5"
               />
               <label class="form-check-label" for="inlineRadio2">ป.5</label>
             </div>
@@ -138,8 +138,8 @@
                 class="form-check-input"
                 type="radio"
                 name="inlineRadioOptions"
-                id="inlineRadio2"
-                value="option2"
+                id="p6"
+                value="p6"
               />
               <label class="form-check-label" for="inlineRadio2">ป.6</label>
             </div>
@@ -149,8 +149,8 @@
                 class="form-check-input"
                 type="radio"
                 name="inlineRadioOptions"
-                id="inlineRadio2"
-                value="option2"
+                id="m1"
+                value="m1"
               />
               <label class="form-check-label" for="inlineRadio2">ม.1</label>
             </div>
@@ -159,8 +159,8 @@
                 class="form-check-input"
                 type="radio"
                 name="inlineRadioOptions"
-                id="inlineRadio2"
-                value="option2"
+                id="m2"
+                value="m2"
               />
               <label class="form-check-label" for="inlineRadio2">ม.2</label>
             </div>
@@ -169,8 +169,8 @@
                 class="form-check-input"
                 type="radio"
                 name="inlineRadioOptions"
-                id="inlineRadio2"
-                value="option2"
+                id="m3"
+                value="m3"
               />
               <label class="form-check-label" for="inlineRadio2">ม.3</label>
             </div>
@@ -179,8 +179,8 @@
                 class="form-check-input"
                 type="radio"
                 name="inlineRadioOptions"
-                id="inlineRadio2"
-                value="option2"
+                id="m4"
+                value="m4"
               />
               <label class="form-check-label" for="inlineRadio2">ม.4</label>
             </div>
@@ -189,8 +189,8 @@
                 class="form-check-input"
                 type="radio"
                 name="inlineRadioOptions"
-                id="inlineRadio2"
-                value="option2"
+                id="m5"
+                value="m5"
               />
               <label class="form-check-label" for="inlineRadio2">ม.5</label>
             </div>
@@ -199,8 +199,8 @@
                 class="form-check-input"
                 type="radio"
                 name="inlineRadioOptions"
-                id="inlineRadio2"
-                value="option2"
+                id="m6"
+                value="m6"
               />
               <label class="form-check-label" for="inlineRadio2">ม.6</label>
             </div>
@@ -210,8 +210,8 @@
                 class="form-check-input"
                 type="radio"
                 name="inlineRadioOptions"
-                id="inlineRadio2"
-                value="option2"
+                id="other"
+                value="other"
               />
               <label class="form-check-label" for="inlineRadio2">อื่น ๆ</label>
             </div>
@@ -255,6 +255,8 @@
           </small>
           <br />
           <small>โทรศัพท์ 02-564-6900 ต่อ 72034, 72047 </small>
+          <br />
+          <br /><br />
         </div>
       </div>
     </div>

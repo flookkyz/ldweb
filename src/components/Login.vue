@@ -2,7 +2,7 @@
   <div class="bg-grey-lighten-3">
     <img
       class="img-fluid"
-      src="https://www.img.in.th/images/57ba71554158adc9607777075a14bbe9.jpg"
+      src="https://www.img.in.th/images/57ba71554158adc9607777075a14bbe9.jpg?fbclid=IwAR2rErAXMpVMiLx-xdGgqgwM2IbiMkIV7QmySI-RQXfC_6F-fFgktgNbe9M"
       alt="banner"
     />
     <div class="my-4">
@@ -13,7 +13,7 @@
     <div>
       <form>
         <div class="col-md-2 offset-md-5 text-center">
-          <div class="my-3" >
+          <div class="my-3">
             <label for="username">ชื่อผู้ใช้</label>
             <input type="text" class="form-control" id="username" />
           </div>
@@ -22,11 +22,13 @@
             <input type="password" class="form-control" id="pwd" />
           </div>
           <div>
-            <v-btn
-              type="submit"
-              class="btn btn-primary rounded-pill"
-              :elevation="3"
-              >เข้าสู่ระบบ</v-btn
+            <router-link to="/dowloadprogram" class="button-link">
+              <v-btn
+                type="submit"
+                class="btn btn-primary rounded-pill"
+                :elevation="3"
+                >เข้าสู่ระบบ</v-btn
+              ></router-link
             >
           </div>
         </div>
@@ -50,7 +52,7 @@
     <div class="my-3">
       <div class="text-center">
         <img
-          src="https://www.img.in.th/images/cebff8812f655c019da5ed5c02b82886.png"
+          src="https://www.img.in.th/images/7a1f1dfee34c258cdbef58798aa57aa9.png"
           class="rounded mx-auto d-block"
           alt="copyright"
           width="100"
@@ -68,7 +70,8 @@
             อำเภอคลองหลวง จังหวัดปทุมธานี 12120
           </small>
           <br />
-          <small>โทรศัพท์ 02-564-6900 ต่อ 72034, 72047 </small>
+          <small>โทรศัพท์ 02-564-6900 ต่อ 72034, 72047 </small><br />
+          <br /><br />
         </div>
       </div>
     </div>
@@ -76,5 +79,12 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name: 'Register',
+  methods: {
+    handleSubmit(){
+      console.log('submitted');
+    }
+  }
+};
 </script>
