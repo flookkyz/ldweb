@@ -249,5 +249,4 @@ nav .nav-item:hover {
   background-color: while;
   border-bottom-color: orange;
 }
-
 </style>

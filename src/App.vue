@@ -1,10 +1,25 @@
 <template>
-<router-view></router-view>
+  <router-view></router-view>
 </template>
 
 <script>
+
 export default {
   name: "App",
-  components: {},
+  components: {
+  },
+  
 };
 </script>
+
+<style>
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "montserrat", sans-serif;
+}
+
+</style>

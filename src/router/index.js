@@ -8,6 +8,7 @@ import Dowloadlicense from "@/components/Dowloadlicense.vue";
 import Dowloadmanual from "@/components/Dowloadmanual.vue";
 import Video from "@/components/Video.vue";
 import Dowloadmedia from "@/components/Dowloadmedia.vue";
+import Testnav from "@/components/Testnav.vue";
 
 const routes = [
   {
@@ -54,6 +55,11 @@ const routes = [
     path: "/dowloadmedia",
     name: "dowloadmedia",
     component: Dowloadmedia,
+  },
+  {
+    path: "/testnav",
+    name: "testnav",
+    component: Testnav,
   },
 ];
 

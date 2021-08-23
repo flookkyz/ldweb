@@ -1,56 +1,16 @@
 <template>
-  <div class="bg-while">
-    <nav class="navbar navbar-expand-lg navbar-while bg-while">
-      <div class="container-fluid">
+    <nav>
         <img
-          class="img-fluid mx-3"
+          class="img-fluid mx-4"
           src="https://www.img.in.th/images/7a1f1dfee34c258cdbef58798aa57aa9.png"
           alt="nav-banner"
           width="120"
         />
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a
-                class="nav-link active mx-2 text-dark"
-                aria-current="page"
-                href="/dowloadprogram"
-                >ดาวน์โหลดโปรแกรม</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active mx-2 text-dark" href="/dowloadlicense"
-                >ดาวน์โหลดLicense</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active mx-2 text-dark" href="/dowloadmanual"
-                >ดาวน์โหลดคู่มือ</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active mx-2 text-dark" href="/video"
-                >วิดิโอการใช้งาน</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active mx-2 text-dark" href="/dowloadmedia"
-                >ดาวน์โหลดสื่อการเรียนการสอน</a
-              >
-            </li>
-          </ul>
-        </div>
+        <div class="menu-item "><a href="/dowloadprogram">ดาวน์โหลดโปรแกรม</a></div>
+        <div class="menu-item "><a href="/dowloadlicense">ดาวน์โหลดLicense</a></div>
+        <div class="menu-item "><a href="/dowloadmanual">ดาวน์โหลดคู่มือ</a></div>
+        <div class="menu-item "><a href="/video">วิดิโอการใช้งาน</a></div>
+        <div class="menu-item "><a href="/dowloadmedia">ดาวน์โหลดสื่อการเรียนการสอน</a></div>
         <router-link to="/">
           <img
             class="img-fluid mx-3"
@@ -58,9 +18,7 @@
             alt="logout"
             width="30"
         /></router-link>
-      </div>
     </nav>
-  </div>
   <div class="bg-grey-lighten-3">
   <img
     class="img-fluid"
@@ -69,7 +27,7 @@
   />
   <div class="my-4">
     <div class="col-md-6 offset-md-2">
-      <h4>เลือกโปรแกรมที่ต้องการ</h4>
+      <h4>เลือกชมวิดิโอติดตั้งและใช้งานโปรแกรมที่ต้องการ</h4>
     </div>
   </div>
 
@@ -104,3 +62,39 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  
+}
+</script>
+
+<style>
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+nav .menu-item {
+    color:black;
+    padding: 18px 15px;
+    position: relative;
+    text-align: center;
+    border-bottom: 6px solid transparent;
+    display: flex;
+    transition: 0.4s;
+}
+
+nav .menu-item.active,
+nav .menu-item:hover {
+    background-color: #fff;
+    border-bottom-color: orange;
+}
+
+nav .menu-item a {
+    color: inherit;
+    text-decoration: none;
+}
+
+</style>

@@ -31,6 +31,18 @@
               ></router-link
             >
           </div>
+
+          <div>
+            <router-link to="/testnav" class="button-link">
+              <v-btn
+                type="submit"
+                class="btn btn-primary rounded-pill"
+                :elevation="3"
+                >test</v-btn
+              ></router-link
+            >
+          </div>
+
         </div>
         <div class="text-center my-3">
           <div>
