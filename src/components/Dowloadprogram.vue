@@ -1,4 +1,5 @@
 <template>
+  <!-- banner and navbar -->
   <div class="bg-while">
     <nav class="navbar navbar-expand-lg navbar-while bg-while">
       <div class="container-fluid">
@@ -68,6 +69,7 @@
       alt="banner"
     />
 
+    <!-- content -->
     <div class="my-4">
       <div class="col-md-6 offset-md-2">
         <h4>เลือกโปรแกรมที่ต้องการ</h4>
@@ -78,16 +80,17 @@
       <div class="col-md-2">
         <div class="card">
           <div class="card-body bg-blue-darken-3">
-            <br />
             <img
-              src="https://www.img.in.th/images/96ae59cccb7ded62c67cbe3288c1c15c.png"
+              src="https://res.cloudinary.com/flook-dev/image/upload/v1630166207/web-ld/4_rsmdpc.png"
               class="rounded mx-auto d-block"
               alt="programpic"
-              width="100"
+              width="200"
+              height="200"
             />
-            <br />
-            <p class="card-text text-white">โปรแกรม</p>
-            <br />
+            <p class="card-text text-white">
+              ชุดซอฟต์แวร์ช่วยการเขียนสำหรับนักเรียนที่บกพร่องทางการเรียนรู้
+            </p>
+            <p class="card-text text-white">(LD Software Suite v.2.0)</p>
           </div>
         </div>
       </div>
@@ -96,13 +99,14 @@
           <div class="card-body bg-orange-darken-1">
             <br />
             <img
-              src="https://www.img.in.th/images/96ae59cccb7ded62c67cbe3288c1c15c.png"
+              src="https://res.cloudinary.com/flook-dev/image/upload/v1630166360/web-ld/sss_gljrr1.png"
               class="rounded mx-auto d-block"
               alt="programpic"
-              width="100"
+              width="160"
             />
             <br />
-            <p class="card-text text-white">โปรแกรม</p>
+            <p class="card-text text-white">แอปพลิเคชันแอลดีคีย์บอร์ด</p>
+            <p class="card-text text-white">(LD Keyboard)</p>
             <br />
           </div>
         </div>
@@ -112,13 +116,16 @@
           <div class="card-body bg-blue-darken-3">
             <br />
             <img
-              src="https://www.img.in.th/images/96ae59cccb7ded62c67cbe3288c1c15c.png"
+              src="https://res.cloudinary.com/flook-dev/image/upload/v1630166207/web-ld/3_psydyc.png"
               class="rounded mx-auto d-block"
               alt="programpic"
-              width="100"
+              width="135"
             />
             <br />
-            <p class="card-text text-white">โปรแกรม</p>
+            <p class="card-text text-white">
+              ซอฟต์แวร์ช่วยเขียนภาษาไทยตามจินตภาพ
+            </p>
+            <p class="card-text text-white">(Kid Can Write)</p>
             <br />
           </div>
         </div>
@@ -128,86 +135,23 @@
           <div class="card-body bg-orange-darken-1">
             <br />
             <img
-              src="https://www.img.in.th/images/96ae59cccb7ded62c67cbe3288c1c15c.png"
+              src="https://res.cloudinary.com/flook-dev/image/upload/v1630166207/web-ld/1_sqv78y.png"
               class="rounded mx-auto d-block"
               alt="programpic"
-              width="100"
+              width="135"
             />
             <br />
-            <p class="card-text text-white">โปรแกรม</p>
+            <p class="card-text text-white">
+              แอปพลิเคชันช่วยอ่านแบบแจกลูกสะกดคำ
+            </p>
+            <p class="card-text text-white">(Kid Can Read)</p>
             <br />
           </div>
         </div>
       </div>
     </div>
-    <br /><br />
 
-    <div class="row justify-content-center text-center">
-      <div class="col-md-2">
-        <div class="card">
-          <div class="card-body bg-orange-darken-1">
-            <br />
-            <img
-              src="https://www.img.in.th/images/96ae59cccb7ded62c67cbe3288c1c15c.png"
-              class="rounded mx-auto d-block"
-              alt="programpic"
-              width="100"
-            />
-            <br />
-            <p class="card-text text-white">โปรแกรม</p>
-            <br />
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2">
-        <div class="card">
-          <div class="card-body bg-blue-darken-3">
-            <br />
-            <img
-              src="https://www.img.in.th/images/96ae59cccb7ded62c67cbe3288c1c15c.png"
-              class="rounded mx-auto d-block"
-              alt="programpic"
-              width="100"
-            />
-            <br />
-            <p class="card-text text-white">โปรแกรม</p>
-            <br />
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2">
-        <div class="card">
-          <div class="card-body bg-orange-darken-1">
-            <br />
-            <img
-              src="https://www.img.in.th/images/96ae59cccb7ded62c67cbe3288c1c15c.png"
-              class="rounded mx-auto d-block"
-              alt="programpic"
-              width="100"
-            />
-            <br />
-            <p class="card-text text-white">โปรแกรม</p>
-            <br />
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2">
-        <div class="card">
-          <div class="card-body bg-blue-darken-3">
-            <br />
-            <img
-              src="https://www.img.in.th/images/96ae59cccb7ded62c67cbe3288c1c15c.png"
-              class="rounded mx-auto d-block"
-              alt="programpic"
-              width="100"
-            />
-            <br />
-            <p class="card-text text-white">โปรแกรม</p>
-            <br />
-          </div>
-        </div>
-      </div>
-    </div>
+    <!-- copyright -->
     <br /><br /><br /><br /><br />
     <div class="my-3">
       <div class="text-center">

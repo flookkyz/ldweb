@@ -1,4 +1,5 @@
 <template>
+  <!-- banner and navbar -->
   <div class="bg-while">
     <nav class="navbar navbar-expand-lg navbar-while bg-while">
       <div class="container-fluid">
@@ -67,6 +68,8 @@
       src="https://www.img.in.th/images/57ba71554158adc9607777075a14bbe9.jpg?fbclid=IwAR2rErAXMpVMiLx-xdGgqgwM2IbiMkIV7QmySI-RQXfC_6F-fFgktgNbe9M"
       alt="banner"
     />
+
+    <!-- content -->
     <div class="my-4">
       <div class="col-md-9 offset-md-2">
         <h4>
@@ -137,72 +140,8 @@
         </div>
       </div>
     </div>
-    <br /><br />
 
-    <div class="row justify-content-center text-center">
-      <div class="col-md-2">
-        <div class="card">
-          <div class="card-body bg-orange-darken-1">
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2">
-        <div class="card">
-          <div class="card-body bg-blue-darken-3">
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2">
-        <div class="card">
-          <div class="card-body bg-orange-darken-1">
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2">
-        <div class="card">
-          <div class="card-body bg-blue-darken-3">
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            
-          </div>
-        </div>
-      </div>
-    </div>
-
+    <!-- copyright -->
     <br /><br /><br /><br /><br />
     <div class="my-3">
       <div class="text-center">

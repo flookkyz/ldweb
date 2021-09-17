@@ -1,10 +1,13 @@
 <template>
+  <!-- banner -->
   <div class="bg-grey-lighten-3">
     <img
       class="img-fluid"
       src="https://www.img.in.th/images/57ba71554158adc9607777075a14bbe9.jpg?fbclid=IwAR2rErAXMpVMiLx-xdGgqgwM2IbiMkIV7QmySI-RQXfC_6F-fFgktgNbe9M"
       alt="banner"
     />
+    
+    <!-- input data -->
     <div class="my-4">
       <div class="col-md-6 offset-md-2">
         <h4>เปลี่ยนรหัสผ่าน</h4>
@@ -29,16 +32,14 @@
       </div>
       <div class="text-center">
         <router-link to="/" class="button-link">
-          <v-btn
-            type="submit"
-            class="btn btn-primary rounded-pill"
-            :elevation="3"
-          >
+          <v-btn type="submit" class="btn btn-primary" :elevation="3">
             บันทึกรหัสผ่านใหม่
           </v-btn></router-link
         >
       </div>
     </div>
+
+    <!-- copyright -->
     <br /><br /><br /><br /><br />
     <div class="my-3">
       <div class="text-center">

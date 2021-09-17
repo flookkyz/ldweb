@@ -1,4 +1,5 @@
 <template>
+  <!-- banner and navbar -->
   <div class="bg-while">
     <nav class="navbar navbar-expand-lg navbar-while bg-while">
       <div class="container-fluid">
@@ -62,19 +63,51 @@
     </nav>
   </div>
   <div class="bg-grey-lighten-3">
-  <img
-    class="img-fluid"
-    src="https://www.img.in.th/images/57ba71554158adc9607777075a14bbe9.jpg?fbclid=IwAR2rErAXMpVMiLx-xdGgqgwM2IbiMkIV7QmySI-RQXfC_6F-fFgktgNbe9M"
-    alt="banner"
-  />
-  <div class="my-4">
-    <div class="col-md-6 offset-md-2">
-      <h4>เลือกโปรแกรมเพื่อดาวน์โหลด License</h4>
+    <img
+      class="img-fluid"
+      src="https://www.img.in.th/images/57ba71554158adc9607777075a14bbe9.jpg?fbclid=IwAR2rErAXMpVMiLx-xdGgqgwM2IbiMkIV7QmySI-RQXfC_6F-fFgktgNbe9M"
+      alt="banner"
+    />
+
+    <!-- content -->
+    <div class="my-4">
+      <div class="col-md-6 offset-md-2">
+        <h4>เลือกโปรแกรมเพื่อดาวน์โหลด License</h4>
+      </div>
     </div>
-  </div>
+    <br /><br />
+    <div class="col-md-6 offset-md-3 text-center">
+      <div class="my-3">
+        <div class="text-danger"></div>
+        <select class="form-select" aria-label="Default select example">
+          <option selected>กรุณาเลือก</option>
+          <option value="1">
+            ชุดซอฟต์แวร์ช่วยการเขียนสำหรับนักเรียนที่บกพร่องทางการเรียนรู้ (LD
+            Software Suite v.2.0)
+          </option>
+          <option value="2">แอปพลิเคชันแอลดีคีย์บอร์ด (LD Keyboard)</option>
+          <option value="3">
+            ซอฟต์แวร์ช่วยเขียนภาษาไทยตามจินตภาพ (Kid Can Write)
+          </option>
+          <option value="4">
+            แอปพลิเคชันช่วยอ่านแบบแจกลูกสะกดคำ (Kid Can Read)
+          </option>
+        </select>
+      </div>
+      <div>
+        <router-link to="#" class="button-link">
+          <v-btn
+            type="submit"
+            class="btn btn-primary text-center"
+            :elevation="3"
+            >ขอ License</v-btn
+          ></router-link
+        >
+      </div>
+    </div>
 
-
-  <br /><br /><br /><br /><br />
+    <!-- copyright -->
+    <br /><br /><br /><br /><br />
     <div class="my-3">
       <div class="text-center">
         <img

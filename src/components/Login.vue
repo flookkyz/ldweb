@@ -1,10 +1,12 @@
 <template>
+  <!-- banner -->
   <div class="bg-grey-lighten-3">
     <img
       class="img-fluid"
       src="https://www.img.in.th/images/57ba71554158adc9607777075a14bbe9.jpg?fbclid=IwAR2rErAXMpVMiLx-xdGgqgwM2IbiMkIV7QmySI-RQXfC_6F-fFgktgNbe9M"
       alt="banner"
     />
+    <!-- input data -->
     <div class="my-4">
       <div class="col-md-6 offset-md-2">
         <h4>เข้าสู่ระบบ</h4>
@@ -23,16 +25,13 @@
           </div>
           <div>
             <router-link to="/dowloadprogram" class="button-link">
-              <v-btn
-                type="submit"
-                class="btn btn-primary rounded-pill"
-                :elevation="3"
+              <v-btn type="submit" class="btn btn-primary" :elevation="3"
                 >เข้าสู่ระบบ</v-btn
               ></router-link
             >
           </div>
 
-          <div>
+          <!-- <div>
             <router-link to="/testnav" class="button-link">
               <v-btn
                 type="submit"
@@ -41,8 +40,7 @@
                 >test</v-btn
               ></router-link
             >
-          </div>
-
+          </div> -->
         </div>
         <div class="text-center my-3">
           <div>
@@ -60,6 +58,8 @@
         </div>
       </form>
     </div>
+
+    <!-- copyright -->
     <br /><br /><br /><br /><br />
     <div class="my-3">
       <div class="text-center">
@@ -92,11 +92,11 @@
 
 <script>
 export default {
-  name: 'Register',
+  name: "Register",
   methods: {
-    handleSubmit(){
-      console.log('submitted');
-    }
-  }
+    handleSubmit() {
+      console.log("submitted");
+    },
+  },
 };
 </script>

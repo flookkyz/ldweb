@@ -1,4 +1,5 @@
 <template>
+  <!-- banner and navbar -->
   <div class="bg-while">
     <nav class="navbar navbar-expand-lg navbar-while bg-while">
       <div class="container-fluid">
@@ -62,19 +63,21 @@
     </nav>
   </div>
   <div class="bg-grey-lighten-3">
-  <img
-    class="img-fluid"
-    src="https://www.img.in.th/images/57ba71554158adc9607777075a14bbe9.jpg?fbclid=IwAR2rErAXMpVMiLx-xdGgqgwM2IbiMkIV7QmySI-RQXfC_6F-fFgktgNbe9M"
-    alt="banner"
-  />
-  <div class="my-4">
-    <div class="col-md-6 offset-md-2">
-      <h4>เลือกชมวิดิโอติดตั้งและใช้งานโปรแกรมที่ต้องการ</h4>
+    <img
+      class="img-fluid"
+      src="https://www.img.in.th/images/57ba71554158adc9607777075a14bbe9.jpg?fbclid=IwAR2rErAXMpVMiLx-xdGgqgwM2IbiMkIV7QmySI-RQXfC_6F-fFgktgNbe9M"
+      alt="banner"
+    />
+
+    <!-- content -->
+    <div class="my-4">
+      <div class="col-md-6 offset-md-2">
+        <h4>เลือกชมวิดิโอติดตั้งและใช้งานโปรแกรมที่ต้องการ</h4>
+      </div>
     </div>
-  </div>
 
-
-  <br /><br /><br /><br /><br />
+    <!-- copyright -->
+    <br /><br /><br /><br /><br />
     <div class="my-3">
       <div class="text-center">
         <img

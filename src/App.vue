@@ -3,12 +3,9 @@
 </template>
 
 <script>
-
 export default {
   name: "App",
-  components: {
-  },
-  
+  components: {},
 };
 </script>
 
@@ -21,5 +18,4 @@ export default {
 body {
   font-family: "montserrat", sans-serif;
 }
-
 </style>
