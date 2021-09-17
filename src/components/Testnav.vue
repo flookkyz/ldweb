@@ -11,8 +11,9 @@
     <div class="menu-item"><a href="/dowloadmanual">ดาวน์โหลดคู่มือ</a></div>
     <div class="menu-item"><a href="/video">วิดิโอการใช้งาน</a></div>
     <div class="menu-item">
-      <a href="/dowloadmedia">ดาวน์โหลดสื่อการเรียนการสอน</a>
+      <a href="/dowloadmedia">ดาวน์โหลดสื่อการเรียนการสอน   </a>
     </div>
+    <div class="lout"></div>
     <router-link to="/">
       <img
         src="https://www.img.in.th/images/66f66667afb9b571b3440d502dd40fc4.png"
@@ -94,5 +95,9 @@ nav .menu-item:hover {
 nav .menu-item a {
   color: inherit;
   text-decoration: none;
+}
+
+nav .lout {
+  margin-right: 380px;
 }
 </style>

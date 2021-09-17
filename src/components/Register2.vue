@@ -6,7 +6,7 @@
       src="https://www.img.in.th/images/57ba71554158adc9607777075a14bbe9.jpg?fbclid=IwAR2rErAXMpVMiLx-xdGgqgwM2IbiMkIV7QmySI-RQXfC_6F-fFgktgNbe9M"
       alt="banner"
     />
-    
+
     <!-- input data -->
     <div class="my-4">
       <div class="text-center">
@@ -100,7 +100,7 @@
             <router-link to="/" class="button-link">
               <v-btn
                 type="submit"
-                class="btn btn-primary rounded-pill"
+                class="btn btn-primary"
                 :elevation="3"
               >
                 บันทึกข้อมูล
