@@ -27,6 +27,7 @@
             >
             <textarea
               type="text"
+              name="q1"
               id="q1"
               class="form-control"
               rows="4"
@@ -41,6 +42,7 @@
             >
             <textarea
               type="text"
+              name="q2"
               id="q2"
               class="form-control"
               rows="4"
@@ -57,6 +59,7 @@
             >
             <textarea
               type="text"
+              name="q3"
               id="q3"
               class="form-control"
               rows="4"
@@ -71,6 +74,7 @@
             >
             <textarea
               type="text"
+              name="q4"
               id="q4"
               class="form-control"
               rows="4"
@@ -87,6 +91,7 @@
             >
             <textarea
               type="text"
+              name="q5"
               id="q5"
               class="form-control"
               rows="4"
