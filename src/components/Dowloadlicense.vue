@@ -12,7 +12,7 @@
     <div class="menu-item"><a href="/dowloadmanual">ดาวน์โหลดคู่มือ</a></div>
     <div class="menu-item"><a href="/video">วิดิโอการใช้งาน</a></div>
     <div class="menu-item">
-      <a href="/dowloadmedia">ดาวน์โหลดสื่อการเรียนการสอน   </a>
+      <a href="/dowloadmedia">ดาวน์โหลดสื่อการเรียนการสอน </a>
     </div>
     <div class="lout"></div>
     <router-link to="/">
@@ -42,24 +42,17 @@
         <select class="form-select" aria-label="Default select example">
           <option selected>กรุณาเลือก</option>
           <option value="1">
-            ชุดซอฟต์แวร์ช่วยการเขียนสำหรับนักเรียนที่บกพร่องทางการเรียนรู้ (LD
-            Software Suite v.2.0)
+            ชุดซอฟต์แวร์ช่วยการเขียนสำหรับนักเรียนที่บกพร่องทางการเรียนรู้ (LD Software
+            Suite v.2.0)
           </option>
           <option value="2">แอปพลิเคชันแอลดีคีย์บอร์ด (LD Keyboard)</option>
-          <option value="3">
-            ซอฟต์แวร์ช่วยเขียนภาษาไทยตามจินตภาพ (Kid Can Write)
-          </option>
-          <option value="4">
-            แอปพลิเคชันช่วยอ่านแบบแจกลูกสะกดคำ (Kid Can Read)
-          </option>
+          <option value="3">ซอฟต์แวร์ช่วยเขียนภาษาไทยตามจินตภาพ (Kid Can Write)</option>
+          <option value="4">แอปพลิเคชันช่วยอ่านแบบแจกลูกสะกดคำ (Kid Can Read)</option>
         </select>
       </div>
       <div>
         <router-link to="#" class="button-link">
-          <v-btn
-            type="submit"
-            class="btn btn-primary text-center"
-            :elevation="3"
+          <v-btn type="submit" class="btn btn-primary text-center" :elevation="3"
             >ขอ License</v-btn
           ></router-link
         >
@@ -82,11 +75,10 @@
             ซอฟต์แวร์ช่วยเขียนสำหรับนักเรียนที่บกพร่องทางการเรียนรู้
           </small>
           <br />
-          <small>สำนักงานพัฒนาวิทยาศาสตร์และเทคโนโลยีแห่งชาติ (สวทช.) </small
-          ><br />
+          <small>สำนักงานพัฒนาวิทยาศาสตร์และเทคโนโลยีแห่งชาติ (สวทช.) </small><br />
           <small
-            >111 อุทยานวิทยาศาสตร์ประเทศไทย ถนนพหลโยธิน ตำบลคลองหนึ่ง
-            อำเภอคลองหลวง จังหวัดปทุมธานี 12120
+            >111 อุทยานวิทยาศาสตร์ประเทศไทย ถนนพหลโยธิน ตำบลคลองหนึ่ง อำเภอคลองหลวง
+            จังหวัดปทุมธานี 12120
           </small>
           <br />
           <small>โทรศัพท์ 02-564-6900 ต่อ 72034, 72047 </small>
