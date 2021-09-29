@@ -44,7 +44,7 @@
               id="q2"
               class="form-control"
               rows="4"
-              v-model="message1"
+              v-model="message2"
               :maxlength="max"
             />
           </div>
@@ -60,7 +60,7 @@
               id="q3"
               class="form-control"
               rows="4"
-              v-model="message1"
+              v-model="message3"
               :maxlength="max"
             />
           </div>
@@ -74,7 +74,7 @@
               id="q4"
               class="form-control"
               rows="4"
-              v-model="message1"
+              v-model="message4"
               :maxlength="max"
             />
           </div>
@@ -90,7 +90,7 @@
               id="q5"
               class="form-control"
               rows="4"
-              v-model="message1"
+              v-model="message5"
               :maxlength="max"
             />
           </div>
