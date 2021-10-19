@@ -12,8 +12,9 @@
     <div class="menu-item"><a href="/dowloadmanual">ดาวน์โหลดคู่มือ</a></div>
     <div class="menu-item"><a href="/video">วิดิโอการใช้งาน</a></div>
     <div class="menu-item">
-      <a href="/dowloadmedia">ดาวน์โหลดสื่อการเรียนการสอน </a>
+      <a href="/dowloadmedia">ดาวน์โหลดสื่อการเรียนการสอน   </a>
     </div>
+    <div class="menu-item"><a href="/admin">admin</a></div>
     <div class="lout"></div>
     <router-link to="/">
       <img
@@ -32,45 +33,32 @@
     <!-- content -->
     <div class="my-4">
       <div class="col-md-6 offset-md-2">
-        <h4>เลือกชมวิดิโอติดตั้งและใช้งานโปรแกรมที่ต้องการ</h4>
+        <h4>หน้าจัดการข้อมูล (ผู้ดูแล)</h4>
       </div>
     </div>
+<!-- view details for license -->
     <br><br>
-
-    <div class="text-center">
-      <iframe
-      class="mx-3"
-        width="400"
-        height="300"
-        src="https://www.youtube.com/embed/wLUEn-745yU"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-
-      <iframe
-      class="mx-3"
-        width="400"
-        height="300"
-        src="https://www.youtube.com/embed/kA7PIuIHCYc"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-    </div>
-
-    <div class="text-center my-4">
-      <iframe
-        width="400"
-        height="300"
-        src="https://www.youtube.com/embed/UT4Zag9jCk8"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
+    <div class="col-md-6 offset-md-3 text-center">
+      <div class="my-3">
+        <div class="text-danger"></div>
+        <select class="form-select" aria-label="Default select example">
+          <option selected>กรุณาเลือก</option>
+          <option value="1">
+            ชุดซอฟต์แวร์ช่วยการเขียนสำหรับนักเรียนที่บกพร่องทางการเรียนรู้ (LD Software
+            Suite v.2.0)
+          </option>
+          <option value="2">แอปพลิเคชันแอลดีคีย์บอร์ด (LD Keyboard)</option>
+          <option value="3">ซอฟต์แวร์ช่วยเขียนภาษาไทยตามจินตภาพ (Kid Can Write)</option>
+          <option value="4">แอปพลิเคชันช่วยอ่านแบบแจกลูกสะกดคำ (Kid Can Read)</option>
+        </select>
+      </div>
+      <div>
+        <router-link to="#" class="button-link">
+          <v-btn type="submit" class="btn btn-primary text-center" :elevation="3"
+            >ขอข้อมูล</v-btn
+          ></router-link
+        >
+      </div>
     </div>
 
     <!-- copyright -->
@@ -138,6 +126,6 @@ nav .menu-item a {
 }
 
 nav .lout {
-  margin-right: 380px;
+  margin-right: 320px;
 }
 </style>

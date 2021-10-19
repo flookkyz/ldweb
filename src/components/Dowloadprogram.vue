@@ -1,5 +1,5 @@
 <template>
-<!-- banner and navbar -->
+  <!-- banner and navbar -->
   <nav>
     <img
       class="img-fluid mx-4"
@@ -12,7 +12,7 @@
     <div class="menu-item"><a href="/dowloadmanual">ดาวน์โหลดคู่มือ</a></div>
     <div class="menu-item"><a href="/video">วิดิโอการใช้งาน</a></div>
     <div class="menu-item">
-      <a href="/dowloadmedia">ดาวน์โหลดสื่อการเรียนการสอน   </a>
+      <a href="/dowloadmedia">ดาวน์โหลดสื่อการเรียนการสอน </a>
     </div>
     <div class="lout"></div>
     <router-link to="/">
@@ -40,17 +40,19 @@
       <div class="col-md-2">
         <div class="card">
           <div class="card-body bg-blue-darken-3">
-            <img
-              src="https://res.cloudinary.com/flook-dev/image/upload/v1630166207/web-ld/4_rsmdpc.png"
-              class="rounded mx-auto d-block"
-              alt="programpic"
-              width="200"
-              height="200"
-            />
-            <p class="card-text text-white">
-              ชุดซอฟต์แวร์ช่วยการเขียนสำหรับนักเรียนที่บกพร่องทางการเรียนรู้
-            </p>
-            <p class="card-text text-white">(LD Software Suite v.2.0)</p>
+            <a href="https://ld.in.th/LDWritingSoftwareSuit_V2.0_temporary/LDSuite%20Setup.7z">
+              <img
+                src="https://res.cloudinary.com/flook-dev/image/upload/v1634142107/web-ld/4_rsmdpcedit_aopiva.png"
+                class="rounded mx-auto d-block"
+                alt="programpic"
+                width="150"
+                height="200"
+              />
+              <p class="card-text text-white">
+                ชุดซอฟต์แวร์ช่วยการเขียนสำหรับนักเรียนที่บกพร่องทางการเรียนรู้
+              </p>
+              <p class="card-text text-white">(LD Software Suite v.2.0)</p>
+            </a>
           </div>
         </div>
       </div>
@@ -58,6 +60,7 @@
         <div class="card">
           <div class="card-body bg-orange-darken-1">
             <br />
+            <a href="#">
             <img
               src="https://res.cloudinary.com/flook-dev/image/upload/v1630166360/web-ld/sss_gljrr1.png"
               class="rounded mx-auto d-block"
@@ -67,6 +70,7 @@
             <br />
             <p class="card-text text-white">แอปพลิเคชันแอลดีคีย์บอร์ด</p>
             <p class="card-text text-white">(LD Keyboard)</p>
+            </a>
             <br />
           </div>
         </div>
@@ -75,6 +79,7 @@
         <div class="card">
           <div class="card-body bg-blue-darken-3">
             <br />
+            <a href="#">
             <img
               src="https://res.cloudinary.com/flook-dev/image/upload/v1630166207/web-ld/3_psydyc.png"
               class="rounded mx-auto d-block"
@@ -86,6 +91,7 @@
               ซอฟต์แวร์ช่วยเขียนภาษาไทยตามจินตภาพ
             </p>
             <p class="card-text text-white">(Kid Can Write)</p>
+            </a>
             <br />
           </div>
         </div>
@@ -94,6 +100,7 @@
         <div class="card">
           <div class="card-body bg-orange-darken-1">
             <br />
+            <a href="#">
             <img
               src="https://res.cloudinary.com/flook-dev/image/upload/v1630166207/web-ld/1_sqv78y.png"
               class="rounded mx-auto d-block"
@@ -105,6 +112,7 @@
               แอปพลิเคชันช่วยอ่านแบบแจกลูกสะกดคำ
             </p>
             <p class="card-text text-white">(Kid Can Read)</p>
+            </a>
             <br />
           </div>
         </div>

@@ -1,4 +1,5 @@
 <template>
+  <!-- navbar -->
   <nav>
     <img
       class="img-fluid mx-4"
@@ -11,7 +12,7 @@
     <div class="menu-item"><a href="/dowloadmanual">ดาวน์โหลดคู่มือ</a></div>
     <div class="menu-item"><a href="/video">วิดิโอการใช้งาน</a></div>
     <div class="menu-item">
-      <a href="/dowloadmedia">ดาวน์โหลดสื่อการเรียนการสอน   </a>
+      <a href="/dowloadmedia">ดาวน์โหลดสื่อการเรียนการสอน </a>
     </div>
     <div class="lout"></div>
     <router-link to="/">
@@ -21,17 +22,66 @@
         width="30"
     /></router-link>
   </nav>
+  <!-- navbar -->
+
+  <!-- banner -->
   <div class="bg-grey-lighten-3">
     <img
       class="img-fluid"
       src="https://www.img.in.th/images/57ba71554158adc9607777075a14bbe9.jpg?fbclid=IwAR2rErAXMpVMiLx-xdGgqgwM2IbiMkIV7QmySI-RQXfC_6F-fFgktgNbe9M"
       alt="banner"
     />
+    <!-- banner -->
+
+    <!-- header -->
     <div class="my-4">
       <div class="col-md-6 offset-md-2">
-        <h4>เลือกชมวิดิโอติดตั้งและใช้งานโปรแกรมที่ต้องการ</h4>
+        <h4>เลือกโปรแกรมที่ต้องการ</h4>
       </div>
     </div>
+    <!-- header -->
+    <br /><br />
+
+    <!-- content-program -->
+    <div class="content-program-grid">
+      <div class="content-program-item">
+        <img
+          src="https://res.cloudinary.com/flook-dev/image/upload/v1630166207/web-ld/4_rsmdpc.png"
+          alt="ldsuite"
+          width="135"
+        />
+        <h6>ชุดซอฟต์แวร์ช่วยการเขียนสำหรับ<br>นักเรียนที่บกพร่องทางการเรียนรู้</h6>
+        <p>(LD Software Suite v.2.0)</p>
+      </div>
+      <div class="content-programs-item">
+        <img
+          src="https://res.cloudinary.com/flook-dev/image/upload/v1630166360/web-ld/sss_gljrr1.png"
+          alt="ldkeyboard"
+          width="135"
+        />
+        <h6>แอปพลิเคชันแอลดีคีย์บอร์ด</h6>
+        <p>(LD Keyboard)</p>
+      </div>
+      <div class="content-program-item">
+        <img
+          src="https://res.cloudinary.com/flook-dev/image/upload/v1630166207/web-ld/3_psydyc.png"
+          alt="kudcanwrite"
+          width="135"
+        />
+        <h6>ซอฟต์แวร์ช่วยเขียนภาษาไทยตามจินตภาพ</h6>
+        <p>(Kid Can Write)</p>
+      </div>
+      <div class="content-programs-item">
+        <img
+          src="https://res.cloudinary.com/flook-dev/image/upload/v1630166207/web-ld/1_sqv78y.png"
+          alt="kidcanread"
+          width="135"
+        />
+        <h6>แอปพลิเคชันช่วยอ่านแบบแจกลูกสะกดคำ</h6>
+        <p>(Kid Can Read)</p>
+      </div>
+    </div>
+    <!-- content-program -->
 
     <!-- copyright -->
     <br /><br /><br /><br /><br />
@@ -62,6 +112,7 @@
         </div>
       </div>
     </div>
+    <!-- copyright -->
   </div>
 </template>
 
@@ -100,4 +151,32 @@ nav .menu-item a {
 nav .lout {
   margin-right: 380px;
 }
+
+.content.program {
+  width: 100%;
+  height: auto;
+  
+}
+
+.content-program-grid {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  grid-gap: 1rem;
+  
+}
+
+.content-program-item {
+  color: #fff;
+  background-color: #FF9900;
+  padding: 20px;
+}
+
+.content-programs-item {
+  color: #fff;
+  background-color: #0033FF;
+  padding: 20px;
+}
+
 </style>

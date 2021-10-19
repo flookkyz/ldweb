@@ -31,13 +31,21 @@
             >
           </div>
 
+          <div class="my-3">
+            <router-link to="/admin" class="button-link">
+              <v-btn type="submit" class="btn btn-primary" :elevation="3"
+                >admin</v-btn
+              ></router-link
+            >
+          </div>
+
           <!-- <div>
-            <router-link to="/testnav" class="button-link">
+            <router-link to="/admin" class="button-link">
               <v-btn
                 type="submit"
-                class="btn btn-primary rounded-pill"
+                class="btn btn-primary"
                 :elevation="3"
-                >test</v-btn
+                >admin</v-btn
               ></router-link
             >
           </div> -->
