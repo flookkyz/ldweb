@@ -10,6 +10,7 @@ import Video from "@/components/Video.vue";
 import Dowloadmedia from "@/components/Dowloadmedia.vue";
 import Testnav from "@/components/Testnav.vue";
 import Admin from "@/components/Admin.vue";
+import Navbar from "@/components/navbar.vue"
 
 const routes = [
   {
@@ -66,6 +67,11 @@ const routes = [
     path: "/admin",
     name: "admin",
     component: Admin,
+  },
+  {
+    path: "/navbar",
+    name: "navbar",
+    component: Navbar,
   },
 ];
 

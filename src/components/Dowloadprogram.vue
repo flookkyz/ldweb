@@ -1,34 +1,5 @@
 <template>
-  <!-- banner and navbar -->
-  <nav>
-    <img
-      class="img-fluid mx-4"
-      src="https://www.img.in.th/images/7a1f1dfee34c258cdbef58798aa57aa9.png"
-      alt="nav-banner"
-      width="120"
-    />
-    <div class="menu-item"><a href="/dowloadprogram">ดาวน์โหลดโปรแกรม</a></div>
-    <div class="menu-item"><a href="/dowloadlicense">ดาวน์โหลดLicense</a></div>
-    <div class="menu-item"><a href="/dowloadmanual">ดาวน์โหลดคู่มือ</a></div>
-    <div class="menu-item"><a href="/video">วิดิโอการใช้งาน</a></div>
-    <div class="menu-item">
-      <a href="/dowloadmedia">ดาวน์โหลดสื่อการเรียนการสอน </a>
-    </div>
-    <div class="lout"></div>
-    <router-link to="/">
-      <img
-        src="https://www.img.in.th/images/66f66667afb9b571b3440d502dd40fc4.png"
-        alt="logout"
-        width="30"
-    /></router-link>
-  </nav>
-  <div class="bg-grey-lighten-3">
-    <img
-      class="img-fluid"
-      src="https://www.img.in.th/images/57ba71554158adc9607777075a14bbe9.jpg?fbclid=IwAR2rErAXMpVMiLx-xdGgqgwM2IbiMkIV7QmySI-RQXfC_6F-fFgktgNbe9M"
-      alt="banner"
-    />
-
+<navbar></navbar>
     <!-- content -->
     <div class="my-4">
       <div class="col-md-6 offset-md-2">
@@ -148,11 +119,15 @@
         </div>
       </div>
     </div>
-  </div>
 </template>
 
 <script>
-export default {};
+import Navbar from "./navbar.vue";
+export default {
+  components:{
+    Navbar
+  },
+};
 </script>
 
 <style>
