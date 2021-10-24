@@ -22,6 +22,7 @@
                 class="form-control"
                 name="addusername"
                 id="addusername"
+                v-model="user.username" required
               />
             </div>
             <div class="my-3">
@@ -31,6 +32,7 @@
                 class="form-control"
                 name="addpwd"
                 id="addpwd"
+                v-model="user.password" required
               />
             </div>
             <div class="my-3">
@@ -40,6 +42,7 @@
                 class="form-control"
                 name="addname"
                 id="addname"
+                v-model="user.name" required
               />
             </div>
             <div class="my-3">
@@ -49,6 +52,7 @@
                 class="form-control"
                 name="addlastname"
                 id="addlastname"
+                v-model="user.lastname" required
               />
             </div>
             <div class="my-3">
@@ -375,12 +379,16 @@
 export default {
   data() {
     return {
-      //message: "",
-      max20: 20,
-      max30: 30,
-      max50: 50,
-      max200: 200,
+        user: {
+          username: '',
+          password: '',
+          name: '',
+          lastname: '',
+        },
     };
   },
+  methods: {
+    handleSubmitFrom() {}
+  }
 };
 </script>

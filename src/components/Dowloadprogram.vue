@@ -1,4 +1,5 @@
 <template>
+<div class="bg-grey-lighten-3">
 <navbar></navbar>
     <!-- content -->
     <div class="my-4">
@@ -17,7 +18,7 @@
                 class="rounded mx-auto d-block"
                 alt="programpic"
                 width="150"
-                height="200"
+                height="185"
               />
               <p class="card-text text-white">
                 ชุดซอฟต์แวร์ช่วยการเขียนสำหรับนักเรียนที่บกพร่องทางการเรียนรู้
@@ -119,6 +120,7 @@
         </div>
       </div>
     </div>
+</div>
 </template>
 
 <script>

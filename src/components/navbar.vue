@@ -1,4 +1,5 @@
 <template>
+<div class="bg-white">
       <!-- banner and navbar -->
   <nav>
     <img
@@ -16,6 +17,7 @@
     </div>
     <div class="menu-item"><a href="/admin">admin</a></div>
     <div class="lout"></div>
+
     <router-link to="/">
       <img
         src="https://www.img.in.th/images/66f66667afb9b571b3440d502dd40fc4.png"
@@ -29,6 +31,8 @@
       src="https://www.img.in.th/images/57ba71554158adc9607777075a14bbe9.jpg?fbclid=IwAR2rErAXMpVMiLx-xdGgqgwM2IbiMkIV7QmySI-RQXfC_6F-fFgktgNbe9M"
       alt="banner"
     />
+  </div>
+  
   </div>
 </template>
 

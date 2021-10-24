@@ -1,4 +1,5 @@
 <template>
+<div class="bg-grey-lighten-3">
 <navbar></navbar>
     <!-- content -->
     <div class="my-4">
@@ -31,6 +32,7 @@
       </div>
     </div>
 
+
     <!-- copyright -->
     <br /><br /><br /><br /><br />
     <div class="my-3">
@@ -59,6 +61,7 @@
           <br /><br />
         </div>
       </div>
+    </div>
     </div>
 </template>
 

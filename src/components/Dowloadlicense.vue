@@ -1,5 +1,7 @@
 <template>
+<div class="bg-grey-lighten-3">
 <navbar></navbar>
+
     <!-- content -->
     <div class="my-4">
       <div class="col-md-6 offset-md-2">
@@ -58,6 +60,7 @@
         </div>
       </div>
     </div>
+</div>
 </template>
 
 <script>
