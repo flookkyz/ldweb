@@ -339,7 +339,7 @@
             <div class="text-center">
               <div class="my-3">
                 <router-link to="/register2" class="button-link">
-                  <v-btn type="submit" class="btn btn-primary" :elevation="3">
+                  <v-btn @click="signup" type="submit" class="btn btn-primary" :elevation="3">
                     ถัดไป
                   </v-btn></router-link
                 >
@@ -399,7 +399,9 @@ export default {
     };
   },
   methods: {
-    handleSubmitFrom() {}
+    signup() {
+      console.log(this.username);
+    }
   }
 };
 </script>
