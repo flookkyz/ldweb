@@ -16,7 +16,7 @@
         <div>
           <form>
             <div class="my-3">
-              <label>ชื่อผู้ใช้</label>
+              <label for="username">ชื่อผู้ใช้</label>
               <input
                 type="text"
                 class="form-control"
@@ -26,7 +26,7 @@
               />
             </div>
             <div class="my-3">
-              <label>รหัสผ่าน</label>
+              <label for="password">รหัสผ่าน</label>
               <input
                 type="password"
                 class="form-control"
@@ -36,7 +36,7 @@
               />
             </div>
             <div class="my-3">
-              <label>ชื่อจริง</label>
+              <label for="name">ชื่อจริง</label>
               <input
                 type="text"
                 class="form-control"
@@ -46,7 +46,7 @@
               />
             </div>
             <div class="my-3">
-              <label>นามสกุล</label>
+              <label for="lasname">นามสกุล</label>
               <input
                 type="text"
                 class="form-control"
@@ -63,6 +63,7 @@
                 id="addadres"
                 class="form-control"
                 rows="5"
+                v-model="user.address" required
               />
             </div>
             <div class="dropdown">
@@ -72,6 +73,7 @@
                 aria-label="Default select example"
                 name="slprovince"
                 id="slprovince"
+                v-model="user.province" required
               >
                 <option selected>กรุณาเลือกจังหวัด</option>
                 <option value="กรุงเทพมหานคร">กรุงเทพมหานคร</option>
@@ -160,6 +162,7 @@
                 class="form-control"
                 name="addwtel"
                 id="addwtel"
+                v-model="user.wtel" required
               />
             </div>
             <div class="my-3">
@@ -169,6 +172,7 @@
                 class="form-control"
                 name="addtel"
                 id="addtel"
+                v-model="user.tel" required
               />
             </div>
             <div class="text-danger"><h6>*กรอกเป็นตัวเลขเท่านั้น</h6></div>
@@ -179,14 +183,16 @@
                 class="form-control"
                 name="addemail"
                 id="addemail"
+                v-model="user.email" required
               />
             </div>
             <div class="my-3">
               <h6>สถานะเจ้าของบัญชี</h6>
               <select
                 class="form-select"
-                name="slsatus"
-                id="slsatus"
+                name="slstatus"
+                id="slstatus"
+                v-model="user.status" required
                 aria-label="Default select example"
                 onchange="if (this.value=='5'){this.form['addstatus'].style.visibility='visible'}else {this.form['addstatus'].style.visibility='hidden'};"
               >
@@ -202,6 +208,7 @@
                   type="text"
                   name="addstatus"
                   id="addstatus"
+                  v-model="user.status" required
                   style="visibility: hidden"
                   class="form-control"
                   placeholder="กรุณากรอกสถานะของท่าน"
@@ -384,6 +391,14 @@ export default {
           password: '',
           name: '',
           lastname: '',
+          address: '',
+          province: '',
+          wtel: '',
+          tel: '',
+          email: '',
+          status: '',
+
+
         },
     };
   },
