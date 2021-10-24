@@ -11,6 +11,7 @@ import Dowloadmedia from "@/components/Dowloadmedia.vue";
 import Testnav from "@/components/Testnav.vue";
 import Admin from "@/components/Admin.vue";
 import Navbar from "@/components/navbar.vue"
+import Testregis from "@/components/testregis";
 
 const routes = [
   {
@@ -72,6 +73,11 @@ const routes = [
     path: "/navbar",
     name: "navbar",
     component: Navbar,
+  },
+  {
+    path: "/tregis",
+    name: "tregis",
+    component: Testregis,
   },
 ];
 
