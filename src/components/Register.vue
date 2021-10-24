@@ -22,7 +22,7 @@
                 class="form-control"
                 name="addusername"
                 id="addusername"
-                v-model="user.username" required
+                v-model="username" required
               />
             </div>
             <div class="my-3">
@@ -386,7 +386,6 @@
 export default {
   data() {
     return {
-        user: {
           username: '',
           password: '',
           name: '',
@@ -397,9 +396,6 @@ export default {
           tel: '',
           email: '',
           status: '',
-
-
-        },
     };
   },
   methods: {
