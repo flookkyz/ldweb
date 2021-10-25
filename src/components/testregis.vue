@@ -4,7 +4,7 @@
     password: <input type="password" v-model="password" required> <br>
     name: <input type="text" v-model="name" required> <br>
     lasname: <input type="text" v-model="lastname" required> <br>
-    <button @click="signup">signup</button>
+    <button>signup</button>
 </div>
     
 </template>

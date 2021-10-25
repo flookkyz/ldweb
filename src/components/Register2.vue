@@ -152,8 +152,11 @@
 export default {
   data() {
     return {
-      message: "",
       message1: "",
+      message2: "",
+      message3: "",
+      message4: "",
+      message5: "",
       max: 20,
     };
   },
