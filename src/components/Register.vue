@@ -400,19 +400,19 @@
 export default {
   data() {
     return {
-      username: "",
-      password: "",
-      name: "",
-      lastname: "",
-      address: "",
-      province: "",
-      wtel: "",
-      tel: "",
-      email: "",
-      status1: "",
-      status2: "",
-      camp1: "",
-      camp2: "",
+      username: '',
+      password: '',
+      name: '',
+      lastname: '',
+      address: '',
+      province: '',
+      wtel: '',
+      tel: '',
+      email: '',
+      status1: '',
+      status2: '',
+      camp1: '',
+      camp2: '',
 
     };
   },
