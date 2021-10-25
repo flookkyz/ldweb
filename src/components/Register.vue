@@ -22,7 +22,8 @@
                 class="form-control"
                 name="addusername"
                 id="addusername"
-                v-model="username" required
+                v-model="username"
+                required
               />
             </div>
             <div class="my-3">
@@ -32,7 +33,8 @@
                 class="form-control"
                 name="addpwd"
                 id="addpwd"
-                v-model="password" required
+                v-model="password"
+                required
               />
             </div>
             <div class="my-3">
@@ -42,7 +44,8 @@
                 class="form-control"
                 name="addname"
                 id="addname"
-                v-model="name" required
+                v-model="name"
+                required
               />
             </div>
             <div class="my-3">
@@ -52,7 +55,8 @@
                 class="form-control"
                 name="addlastname"
                 id="addlastname"
-                v-model="lastname" required
+                v-model="lastname"
+                required
               />
             </div>
             <div class="my-3">
@@ -63,7 +67,8 @@
                 id="addadres"
                 class="form-control"
                 rows="5"
-                v-model="address" required
+                v-model="address"
+                required
               />
             </div>
             <div class="dropdown">
@@ -73,7 +78,8 @@
                 aria-label="Default select example"
                 name="slprovince"
                 id="slprovince"
-                v-model="province" required
+                v-model="province"
+                required
               >
                 <option selected>กรุณาเลือกจังหวัด</option>
                 <option value="กรุงเทพมหานคร">กรุงเทพมหานคร</option>
@@ -162,7 +168,8 @@
                 class="form-control"
                 name="addwtel"
                 id="addwtel"
-                v-model="wtel" required
+                v-model="wtel"
+                required
               />
             </div>
             <div class="my-3">
@@ -172,7 +179,8 @@
                 class="form-control"
                 name="addtel"
                 id="addtel"
-                v-model="tel" required
+                v-model="tel"
+                required
               />
             </div>
             <div class="text-danger"><h6>*กรอกเป็นตัวเลขเท่านั้น</h6></div>
@@ -183,7 +191,8 @@
                 class="form-control"
                 name="addemail"
                 id="addemail"
-                v-model="email" required
+                v-model="email"
+                required
               />
             </div>
             <div class="my-3">
@@ -192,7 +201,8 @@
                 class="form-select"
                 name="slstatus"
                 id="slstatus"
-                v-model="status" required
+                v-model="status"
+                required
                 aria-label="Default select example"
                 onchange="if (this.value=='5'){this.form['addstatus'].style.visibility='visible'}else {this.form['addstatus'].style.visibility='hidden'};"
               >
@@ -338,7 +348,12 @@
             <div class="text-center">
               <div class="my-3">
                 <router-link to="/register2" class="button-link">
-                  <v-btn @click="signup" type="submit" class="btn btn-primary" :elevation="3">
+                  <v-btn
+                    @click="signup"
+                    type="submit"
+                    class="btn btn-primary"
+                    :elevation="3"
+                  >
                     ถัดไป
                   </v-btn></router-link
                 >
@@ -385,22 +400,35 @@
 export default {
   data() {
     return {
-          username: '',
-          password: '',
-          name: '',
-          lastname: '',
-          address: '',
-          province: '',
-          wtel: '',
-          tel: '',
-          email: '',
-          status: '',
+      username: "",
+      password: "",
+      name: "",
+      lastname: "",
+      address: "",
+      province: "",
+      wtel: "",
+      tel: "",
+      email: "",
+      status1: "",
+      status2: "",
+      camp1: "",
+      camp2: "",
+
     };
   },
   methods: {
     signup() {
       console.log(this.username);
-    }
-  }
+      console.log(this.password);
+      console.log(this.name);
+      console.log(this.lastname);
+      console.log(this.address);
+      console.log(this.province);
+      console.log(this.wtel);
+      console.log(this.tel);
+      console.log(this.email);
+      console.log(this.status1);
+    },
+  },
 };
 </script>

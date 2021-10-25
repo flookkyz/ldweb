@@ -160,5 +160,14 @@ export default {
       max: 20,
     };
   },
+  methods: {
+    signup() {
+      console.log(this.message1);
+      console.log(this.message2);
+      console.log(this.message3);
+      console.log(this.message4);
+      console.log(this.message5);
+    },
+  },
 };
 </script>
