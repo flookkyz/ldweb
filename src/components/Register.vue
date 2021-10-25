@@ -201,7 +201,7 @@
                 class="form-select"
                 name="slstatus"
                 id="slstatus"
-                v-model="status"
+                v-model="status1"
                 required
                 aria-label="Default select example"
                 onchange="if (this.value=='5'){this.form['addstatus'].style.visibility='visible'}else {this.form['addstatus'].style.visibility='hidden'};"
@@ -218,9 +218,11 @@
                   type="text"
                   name="addstatus"
                   id="addstatus"
+                  v-model="status2"
                   style="visibility: hidden"
                   class="form-control"
                   placeholder="กรุณากรอกสถานะของท่าน"
+                  required
                 />
               </div>
             </div>
@@ -235,6 +237,8 @@
                 class="form-select"
                 name="slcamp"
                 id="slcamp"
+                v-model="camp1"
+                required
                 aria-label="Default select example"
               >
                 <option value="">กรุณาเลือก</option>
@@ -246,6 +250,8 @@
                   type="text"
                   name="addcamp"
                   id="addcamp"
+                  v-model="camp2"
+                  required
                   class="form-control"
                   placeholder="กรุณากรอกชื่อโรงเรียน/หน่วยงานของท่าน"
                 />
