@@ -58,7 +58,7 @@
               alt="programpic"
               width="135"
             />
-            <br />
+            <br /><br>
             <p class="card-text text-white">
               ซอฟต์แวร์ช่วยเขียนภาษาไทยตามจินตภาพ
             </p>
@@ -79,7 +79,7 @@
               alt="programpic"
               width="135"
             />
-            <br />
+            <br /><br>
             <p class="card-text text-white">
               แอปพลิเคชันช่วยอ่านแบบแจกลูกสะกดคำ
             </p>

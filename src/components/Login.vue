@@ -31,24 +31,15 @@
             >
           </div>
 
-          <div class="my-3">
+<!-- //////////////////////////////////////////////test button///////////////////////////////////////////////// -->
+          <!-- <div class="my-3">
             <router-link to="/tregis" class="button-link">
               <v-btn type="submit" class="btn btn-primary" :elevation="3"
                 >admin</v-btn
               ></router-link
             >
-          </div>
-
-          <!-- <div>
-            <router-link to="/admin" class="button-link">
-              <v-btn
-                type="submit"
-                class="btn btn-primary"
-                :elevation="3"
-                >admin</v-btn
-              ></router-link
-            >
           </div> -->
+<!-- //////////////////////////////////////////////test button///////////////////////////////////////////////// -->
         </div>
         <div class="text-center my-3">
           <div>

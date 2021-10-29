@@ -32,8 +32,9 @@
       alt="banner"
     />
   </div>
-  
+  <div class="bg-grey-lighten-3">
   </div>
+</div>
 </template>
 
 <script>
